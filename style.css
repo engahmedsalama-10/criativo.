@@ -1,0 +1,1742 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(32, 31, 31);
+    
+}
+/* start header */
+.container {
+    background-image: linear-gradient(to right ,#00000052,#000);
+}
+.logo  {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #81ddbe;
+    transition: all  1s ease;
+}
+header {   
+    width: 80%;
+    margin: auto;
+    height:90px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all  1s ease;
+}
+.search {
+    color: #81ddbe;
+}
+.text-a {
+    font-size: 6px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.hidn-1 {
+    display: none;
+}
+.we:hover {
+    width: 500px;
+    transition: 0.5s;
+}
+ul li a:hover {
+    color: #81ddbe;
+    border-bottom: 2px solid white;
+    transform: scale(1.1);
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+/* end header */
+/* start section one */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    background-image: linear-gradient(to left,#c0bcbc07,#07060652 );
+    position: relative;
+}
+.section .one  h6{
+    color: #81ddbe;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;   
+    position: absolute;
+    top: 180px;
+    left: 10%;
+}
+.section .one h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight:900;
+    position: absolute;
+    top: 230px;
+    left: 10%;
+    letter-spacing: 2px;
+
+}
+.creative {
+    color: #81ddbe;
+}
+.we {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    color: #81ddbe;
+    width: 80px;
+}
+.section .one .p {
+    color: rgba(255, 255, 255, 0.596);
+    position: absolute;
+    top: 430px;
+    left: 10%;
+}
+.section .one a {
+    text-decoration: none;
+    position: absolute;
+    top: 520px;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+.section .one a i {
+    background-color: #81ddbe;
+    color: white;
+    border: 4px solid #49997e;
+    border-bottom-color: rgba(52, 87, 75, 0.856);
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+.link-1 {
+    position: absolute;
+    top: 590px;
+    left: 230px;
+    color: rgba(168, 168, 168, 0.425);
+    width: 90px;
+}
+.section .one p {
+    position:absolute ;
+    top: 615px;
+    left: 209px;
+    color: #81ddbe;;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+.section .two {
+    width: 50%;
+    height: 800px;
+    background-image: linear-gradient(to left,#09ffca1f ,#ffffff1f 100%) ,url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.28.32_3c07fe8d.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.section .one a i:hover {
+    background-color: white;
+    color: #81ddbe;
+    transition: 0.4s;
+} 
+
+.section .one  h6:hover {
+    letter-spacing: 4px;
+    transition: 0.6s;
+}
+/* end section one */
+/* start section two */
+.section-two-color{
+    background-color: rgb(0, 0, 0);
+}
+
+.section-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content-one {
+    width: 50%;
+    color: white;
+}
+.content-one h6 {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    color: #81ddbe;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;   
+}
+.content-one h1 {
+    position: absolute;
+    top:140px;
+    left: 5px;
+    color: white;
+    font-size: 45px;
+}
+.content-one h1 span {
+    color: #81ddbe;
+}
+.content-one  hr {
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    width: 90px;
+    margin-top:5px ;
+    color: #81ddbe;
+}
+.content-one .one {
+    width: 480px;
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    color: rgba(194, 194, 194, 0.76);
+}
+.content-one p {
+    width: 480px;
+    position: absolute;
+    top: 330px;
+    left: 5px;
+    color: rgba(194, 194, 194, 0.76);
+}
+.content-one a {
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+    left: 5px;
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+    background-color: #81ddbe;
+    color: white;
+}
+.content-one  hr:hover {
+    width: 260px;
+    transition: 0.6s;
+}
+.content-two {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+.content-two .one {
+    background-color: #332f2f3b;
+    position: absolute;
+    top: 40px;
+    width: 280px;
+    height: 250px;
+    color: white;
+    margin-left: 5px;
+    box-shadow: 10px 15px 10px #81ddbe31;
+}
+.content-two .one img {
+    position: absolute;
+    left:90px ;
+    top: 20px;
+    width: 100px;
+}
+.content-two .one h2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.content-two .one p {
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left:9% ;
+}
+.content-two .two {
+    position:absolute;
+    top: 40px;
+    left: 305px;
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to bottom ,#000000 ,#14312cc0 90%) ;
+    color: white;
+    
+
+}
+.content-two .two img {
+    position: absolute;
+    left:90px ;
+    top: 20px;
+    width: 100px;
+}
+.content-two .two h2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.content-two .two p {
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left:9% ;
+}
+.content-two .three {
+    position: absolute;
+    top: 45%;
+    width: 280px;
+    height: 280px;
+    color: white;
+    background-image: linear-gradient(to bottom ,#000000 ,#14312cc0 90%);
+}
+.content-two .three img {
+    position: absolute;
+    left:30% ;
+    top: 10%;
+    width: 100px;
+}
+.content-two .three h2 {
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
+.content-two .three p {
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left:9% ;
+}
+.content-two .four {
+    background-color: #332f2f3b;
+    position: absolute;
+    top: 50%;
+    left: 295px;
+    width: 280px;
+    height: 260px;
+    color: white;
+    margin-left: 5px;
+    box-shadow: 10px 15px 10px #81ddbe31;
+}
+.content-two .four h2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.content-two .four p {
+    width: 250px;
+    position: absolute;
+    top: 70%;
+    left:9% ;}
+
+.content-two .four img {
+    position: absolute;
+    left:90px ;
+    top: 20px;
+    width: 100px;
+}
+.content-one  hr:hover {
+    width: 280px;
+    transition: 0.5s;
+    
+}
+.content-one a:hover {
+    width: 100px;
+    height: 40px;
+    color: #81ddbe;
+    background-color: white;
+    transition: 0.5s;
+    font-size: 17px;
+} 
+/* end section two */
+/* start section three */
+.section-three {
+    background-color: #000;
+    color: white;
+}
+.sec2div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.sec2div .one img {
+    width: 470px;
+}
+.sec2div .two  {
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    width: 600px;
+    margin: auto;
+}
+.sec2div .two h6 {
+    color: #81ddbe;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.sec2div .two h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.sec2div .two h1 span {
+    color: #81ddbe;
+}
+.sec2div .two .hr {
+    color: #81ddbe;
+    width: 70px;
+    margin: 15px 0 ;
+    transition: 0.5s;
+
+}
+.sec2div .two p {
+    color: #d2d3d3c0;
+    letter-spacing: 1px;
+}
+.icon {
+    margin-top: 30px ;
+}
+.icon .one {
+    width: 50%;
+    position: relative;
+}
+.icon .div-1 {
+    position: relative;
+}
+.icon div img {
+    position: absolute;
+    top: 5px;
+    width: 80px;
+}
+.icon .div-1 h6 {
+    font-size: 22px;
+    position: absolute;
+    left: 14%;
+    top: 20px;
+    letter-spacing: normal;
+}
+.icon .div-1 p{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    left: 14%;
+    font-size: 14px;
+    color: #d2d3d3c0;
+    font-weight: 600;
+}
+.icon .div-2 {
+    position: relative;
+}
+.icon .div-2 img{
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+.icon .div-2 h6 {
+    width: 200px;
+    font-size: 25px;
+    position: absolute;
+    left: 410px;
+    top: 20px;
+    letter-spacing: normal;
+}
+.icon .div-2 p{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    left: 410px;
+    font-size: 14px;
+    color: #d2d3d3c0;
+    font-weight: 600;
+}
+.sec2div .two .hr:hover {
+    width: 300px;
+}
+/* end section three */
+/* start section four */
+.section-four {
+    height: 400px;
+    background-image:linear-gradient(to left ,#131314c4 ,#1ee9c718), url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.29.00_5836358d.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.content div{
+    margin-top:130px;
+}
+.content div img {
+    width: 85px;
+}
+.content-1  {
+    position: relative;
+}
+.content-1  h1 {
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    color: #81ddbe;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.content-1 span {
+    position: absolute;
+    top:110%;
+    left: 75px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.content-1 p{
+    width: 150px;
+    position: absolute;
+    top: 165px;
+    right: -40%;
+    color: white;
+    font-size: 20px;
+}
+.content-2  {
+    position: relative;
+}
+.content-2  h1 {
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    color: #81ddbe;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.content-2 span {
+    position: absolute;
+    top: 110%;
+    left: 75px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.content-2 p{
+    width: 150px;
+    position: absolute;
+    top: 165px;
+    right: -40%;
+    color: white;
+    font-size: 20px;
+}
+.content-3 {
+    position: relative;
+}
+.content-3  h1 {
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    color: #81ddbe;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.content-3 span {
+    position: absolute;
+    top: 110%;
+    left: 75px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.content-3 p{
+    width: 150px;
+    position: absolute;
+    top: 165px;
+    right: -40%;
+    color: white;
+    font-size: 20px;
+}
+.content-4 {
+    position: relative;
+}
+.content-4  h1 {
+    position: absolute;
+    right: 15%;
+    top: 100%;
+    color: #81ddbe;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.content-4 span {
+    position: absolute;
+    top: 110%;
+    left: 75px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.content-4 p{
+    width:140px;
+    position: absolute;
+    top: 165px;
+    right: -40%;
+    color: white;
+    font-size: 20px;
+}
+/* end section four  */
+/* strat section five */
+.section-five {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+.sec-5 {
+    width: 90%;
+    margin: auto;
+}
+.section-five .sec-one {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-five .sec-one div {
+    margin-top: 100px;
+}
+.sec-one {
+
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec-5-1 h6{
+    position: absolute;
+    TOP:120PX;
+    left: 100PX;
+    color: #81ddbe;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.sec-5-1 h1 {
+    position: absolute;
+    top: 160px;
+    left: 100PX;
+    font-size:55px;
+}
+.sec-5-1 .hr {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    width: 90px;
+    color: #81ddbe;
+    height: 2px;
+}
+.sec-5-1 span {
+    color: #81ddbe;
+}
+.sec-5-1 p {
+position: absolute;
+top: 300px;
+left:100px;
+color: #646464fa;
+}
+.sec-5-1 .h5-1 {
+    position: absolute;
+    top: 380px;
+    left: 120px;
+}
+.sec-5-1 .h5-1 i {
+    color: #81ddbe;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.sec-5-1 .h5-2 {
+    position: absolute;
+    top: 420px;
+    left: 120px;
+}
+.sec-5-1 .h5-2 i {
+    color: #81ddbe;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.sec-5-1 {
+    width: 50%;
+}
+.sec-two {
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-5-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.sec-5-2 img {
+    
+    width: 320px;
+
+}
+.sec-two img {
+    width: 320px;
+    margin-top:20px ;
+}
+
+.section-sex {
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.sec {
+    background-image:linear-gradient(to left ,#1ee9c718,#131314c4 ), url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.28.43_4ab00385.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    height: 400px;
+    width: 100%;
+}
+.imges {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-filter: grayscale(100%); filter: grayscale(100%);  
+}
+.imges div img {
+    width: 200px;
+}
+/* end  section sex */
+/* strat section siven */
+.section-7{
+    background-color: #000;
+    height: 1000px;
+}
+.section-7 .one-1 {
+    position: relative;
+    width: 50%;
+    height: 750px;
+}
+.section-7 .one-1 h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #81ddbe;
+    letter-spacing: 3px;
+}
+.section-7 .one-1 h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800PX;
+}.section-7 .one-1 hr {
+    width: 200px;
+    margin-top: 10px;
+    color: #81ddbe;
+    transition: 0.6s;
+}
+.section-7 .one-1 hr:hover {
+    width: 600px;
+}
+.section-7 .one-1 SPAN {
+    color: #81ddbe;
+}
+.section-7 .one-1 img {
+    width: 75%;
+    margin: 80px 0 0 0px;
+    box-shadow: 20px 20px 20px #81ddbe31;
+    transition: 0.5s;
+}
+.section-7 .two-2 {
+    position: relative;
+    width: 50%;
+    height: 850px;
+}
+.section-7 .two-2 p  {
+    position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: #858887;
+}
+.section-7 .two-2 img {
+    width: 75%;
+    margin: 360px 0 0 0px;
+    box-shadow: 20px 20px 20px #81ddbe31;
+    transition: 0.5s;
+
+}
+.section-7 .two-2 h5 { 
+    position: absolute;
+    top: 220px;
+    font-size: 20px;
+    color: white;
+    padding:12px;
+}
+.section-7 .two-2 .h5 {
+    display: flex;
+    position: absolute;
+    top: 270px;
+    font-size: 20px;
+    color: white;
+    padding:12px;
+}
+.section-7 .two-2 i {
+    font-size: 18px;
+    border-radius: 50% ;
+    border: 2px solid ;
+    background-color: #81ddbe;
+    padding: 5px;
+}
+.section-7 .two-2 img:hover{
+    width: 76%;
+}
+.section-7 .one-1 img:hover{
+    width: 76%;
+}
+/* end section siven */
+
+.eight {
+    background-image:linear-gradient(to left ,#1ee9c718,#131314c4 ), url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.28.31_29da215b.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.eight .a8 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+.eight .a8 h5 {
+    position: absolute;
+    left: 710px;
+    top: 70px;
+    color: #81ddbe;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+.eight .a8 h1 {
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    font-size: 40px;
+}
+.eight .a8 hr {
+    position: absolute;
+    top: 220px;
+    left: 710px;
+    width: 130px;
+    color: #81ddbe;
+    transition: 0.5s;
+}
+.eight .a8 p {
+    position: absolute;
+    top: 250px;
+    left: 370px;
+}
+.eight .a8 span {
+    color: #81ddbe;
+}
+.eight .a8 hr:hover {
+    width: 250px;
+}
+.eight .a8 h5:hover {
+    letter-spacing: 5px;
+}
+/*  start section eight p2  */
+.container-8 {
+    height: 1000px;
+    background-image:linear-gradient(to left ,#1ee9c710,#1313144d ), url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.28.31_29da215b.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-8 .flex {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.container-8 .flex-2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.container-8 .box {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 350px;
+    background-color: #151515;
+    transition: 0.5s;
+    position: relative;
+
+}
+.container-8 .box img {
+    width: 300px;
+    -webkit-filter: grayscale(100%); filter: grayscale(100%);  
+}
+.container-8 .box h4 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+}
+.container-8 .box h6 {
+    position: absolute;
+    top:35% ;
+    left: 50%;
+    color: #81ddbe;
+    font-size: 20px;
+}
+.container-8 .box p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(192, 189, 189);
+    font-size: 20px;
+}
+.container-8 .box .link-1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #81ddbe;
+    font-size:20px ;
+}
+.container-8 .box .link-2 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    color: #81ddbe;
+    font-size:20px ;
+}
+.container-8 .box .link-3 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    color: #81ddbe;
+    font-size:20px ;
+}
+.container-8 .box:hover {
+    box-shadow:  20px 20px 20px #629c8941;
+}
+/* end section eight p2 */
+.section-nine{
+    background-color: #000;
+}
+.nine-two {
+    width: 80%;
+    margin:auto ;
+    margin-top: 150px;
+    padding-bottom: 50px;
+
+}
+.nine-two img {
+    width: 400px;
+    margin: 5px;
+    transition: 0.5s;
+}
+.nine-one {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.nine-one h5 {
+    color: #81ddbe;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.nine-one h1 {
+    font-size: 60px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.nine-one span {
+    color: #81ddbe;
+}
+.nine-one p{
+    color: rgb(175, 170, 170);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.nine-one hr{
+    width: 200px;
+    color: #81ddbe;
+    margin: auto;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.nine-two img:hover {
+    width: 395px;
+    box-shadow: 10px 10px 10px  #81ddbe;
+}
+.nine-one h5:hover {
+    letter-spacing: 5px;
+}
+.nine-one hr:hover{
+    width: 400px;
+}
+/* end section nine */
+/* start section ten */
+.section-ten {
+    background-image:linear-gradient(to left ,#00000018,#00000062 ), url(./imges/صورة\ واتساب\ بتاريخ\ 2024-06-02\ في\ 00.28.46_109a762c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-ten {
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    display: flex;justify-content: space-between;
+    color: white;
+}
+.ten-one {
+    width: 50%;
+    height: 100%;
+}
+.ten-one h5 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: #81ddbe;
+    margin-top: 20px;
+}
+.ten-one h1 {
+    font-size: 60px;
+    margin-top: 30px;
+}
+.ten-one hr {
+    color:#81ddbe;
+    width: 120px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.ten-one span {
+    color: #81ddbe;
+}
+.ten-one p {
+    font-size: 20px;
+    color: #a7a2a2;
+    margin-top:30px ;
+}
+.ten-one button {
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    background-color: #81ddbe;
+    margin-top: 70px;
+    transition: 0.5s;
+}
+.ten-one button:hover{
+    font-size: 23px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 15px rgb(245, 242, 242);
+}
+.ten-two {
+    position: relative;
+    background-color: #00000081;
+    width: 60%;
+    height: 70%;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+    transition: 0.5s;
+}
+.ten-two p {
+    font-size: 20px;
+    color: #a7a3a3;
+    position: absolute;
+    top: 50px;
+}
+.ten-two img {
+    position: absolute;
+    top: 70%;
+    right:75%;
+    width: 150px;
+    border-radius: 50%;
+}
+.ten-two h6 {
+    position: absolute;
+    top: 72%;
+    left: 28%;
+    color: white;
+    font-size: 25px;
+}
+.ten-two .p {
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    color: #81ddbe;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ten-two i {
+    position: absolute;
+    top: 70%;
+    left: 600px;
+    font-size: 60px;
+}
+.ten-two:hover{
+    box-shadow:  15px 15px 15px #81ddbed2;
+}
+.ten-one hr:hover{
+    width: 400px;
+}
+
+.section-11 {
+    background-color: #000;
+}
+.sec-11 {
+    /* background-color: red; */
+    height: 1000px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.one-11 {
+    position: relative;
+}
+.sec-11 .one-11 h5 {
+    color: #81ddbe;
+    font-size: 20PX;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    font-weight: 800;
+}
+.sec-11 .one-11 span {
+    color: #81ddbe;
+}
+.sec-11 .one-11 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.sec-11 .one-11 hr {
+    position: absolute;
+    left: 45%;
+    width: 125px;
+    color: #81ddbe;
+    margin-top: 20px;
+}
+.sec-11 .one-11 p {
+    margin-top: 40PX;
+    font-size: 20px;
+    color: #999898;
+    font-weight: 600;
+}
+.two-11 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.two-11 div {
+    width: 450px;
+    height: 650px;
+    margin: 0 20px 0 20px;
+}
+.two-11 div img {
+    width: 450px;
+}
+.two-11 div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #81ddbe;
+}
+.two-11 div p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7c7a7a;
+}
+.two-11 div .h6 {
+    margin-top: 70px;
+    margin-right: 190px;
+    font-size: 20px;
+    color: white;
+}
+.two-11 div {
+    position: relative;
+}
+.two-11 div .h6 i{
+   color: #81ddbe;
+}
+.two-11 div .h6-2 {
+    position: absolute;
+    top: 533px;
+    left: 60%;
+    font-size: 20px;
+    color: white;
+}
+.two-11 div .h6-2 i {
+    color: #81ddbe;
+}
+.section-12 {
+    background-color: #000;
+}
+.flex-0 {
+    width: 90%;
+    margin: auto;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-12 {
+    position: relative;
+    width: 50%;
+    height: 700px;
+    border: 1px solid #81ddbe;
+}
+.two-12 {
+    width: 50%;
+}
+.one-l {
+    color:#81ddbe;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+.one-1-1 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    border:1px solid #81ddbe;
+    background:none ;
+}
+.two-2 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color:#81ddbe;
+    font-size: 20px;
+    font-weight: 700;
+}
+.two-2-2 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    border:1px solid #81ddbe;
+    background:none ;
+}
+.three-3 {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    color:#81ddbe;
+    font-size: 20px;
+    font-weight: 700;
+}
+.three-3-3 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    border:1px solid #81ddbe;
+    background:none ;
+}
+.dtn {
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    padding: 20px;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #81ddbe;
+    transition: 0.5s;
+}
+.dtn:hover {
+    width: 620px;
+    box-shadow: 10px 10px 10px #e0e0e0;
+    color: #000;
+}
+.two-12 {
+    position: relative;
+    text-align: start;
+    
+}
+.two-12 h5 {
+    position: absolute;
+    top: -350px;
+    bottom: 90px;
+    left: 30px;
+    font-size: 20px;
+    color: #81ddbe;
+    letter-spacing: 3px;
+}
+.two-12 .get{
+    position: absolute;
+    left: 30px;
+    top: -300px;
+    font-size: 60px;
+    color: white;
+}
+.two-12 span {
+    color: #81ddbe;
+}
+.two-12 hr {
+    position: absolute;
+    top: -210px;
+    left: 30px;
+    width: 100px;
+    color: #81ddbe;
+}
+.two-12 .p {
+    color: rgb(168, 168, 168);
+    font-size: 20px;
+    position: absolute;
+    top: -150PX;    
+    left: 30px;
+}
+.o-2-1 {
+    position: relative;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.o-2-2 {
+    position: relative;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+}
+.o-2-3 {
+    display: flex;
+    position: relative;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+.o-2-3 h1 {
+    position: absolute;
+    left: 60px;
+    font-size: 30px;
+    color: white;
+}
+.o-2-1 h1 {
+    position: absolute;
+    left: 60px;
+    font-size: 30px;
+    color: white;
+}
+.mail {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    color: rgb(83, 153, 120);
+}
+.o-2-2 h1 {
+    position: absolute;
+    left: 60px;
+    font-size: 30px;
+    color: white;
+}
+.call {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    color: rgb(83, 153, 120);
+}
+.map {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    color: rgb(83, 153, 120);
+}
+
+.secta-one {
+    text-align: center;
+    padding: 100px;
+}
+.secta-one h1 {
+    font-size: 60px;
+    color: #81ddbe;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+}
+.secta-one .po {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+.links-13 {
+    position: absolute;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.links-13 ul li {
+    text-align: center;
+    margin-right:5px;
+}
+.links-13 a {
+    text-align: center;
+    font-size: 25px;
+    color: #81ddbe;
+}
+.pp{
+color: rgb(255, 255, 255);
+margin-top: 300px;
+font-size: 20px;
+}
+/* navbar media query start */
+@media only screen and (min-width:300px)and ( max-width:567px) {
+    .logo  {
+        padding-top: 15px;
+        align-items: center;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #81ddbe;
+    }
+    .logo:hover {
+        font-size: 30px;
+        transition: 0.4s;
+        }
+    header {   
+        width: 80%;
+        margin: auto;
+        height:90px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container:hover{
+        background-color: #81ddbe;
+        transition: 0.5s all;
+    }
+    ul {
+        visibility: hidden;
+    }
+    .hidn-1{
+        align-items: center;
+        padding-top: 15px;
+        display: inline;
+        font-size: 30px;
+        color: red;
+    }
+    .text-a {
+        font-size: 6px;
+        color: white;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    /* 2 */
+    .section {
+        height: 700px;
+        position: relative;
+    }
+    .section .one  h6{
+        color: #81ddbe;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;   
+        position: absolute;
+        top: 180px;
+        left: 10%;
+    }
+    .section .one h1 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight:900;
+        position: absolute;
+        top: 210px;
+        left: 10%;
+        letter-spacing: 2px;
+    
+    }
+    .creative {
+        color: #81ddbe;
+    }
+    .we {
+        position: absolute;
+        top: 320px;
+        left: 10%;
+        color: #81ddbe;
+        width: 80px;
+    }
+    .we:hover {
+        width: 330px;
+    }
+    .section .one .p {
+        width: 300px;
+        color: rgba(255, 255, 255, 0.596);
+        position: absolute;
+        top: 350px;
+        left: 10%;
+    }
+    .section .one a {
+        text-decoration: none;
+        position: absolute;
+        top: 460px;
+        left: 9%;
+        color: rgba(255, 255, 255, 0.973);
+        font-weight: 600;
+        letter-spacing: 2px;
+    
+    }
+    .section .one a i {
+        background-color: #81ddbe;
+        color: white;
+        border: 4px solid #49997e;
+        border-bottom-color: rgba(52, 87, 75, 0.856);
+        border-radius: 50%;
+        padding: 20px;
+        margin: 10px;
+    }
+    .link-1 {
+        position: absolute;
+        top: 520px;
+        left: 130px;
+        color: rgba(168, 168, 168, 0.425);
+        width: 90px;
+    }
+    .section .one p {
+        position:absolute ;
+        top: 530px;
+        left: 135px;
+        color: #81ddbe;;
+        font-size: 14px;
+        letter-spacing: 1px;
+    
+    }
+    .section .two {
+        width: 50%;
+        height: 700px;
+       
+    }
+    .section .one a i:hover {
+        background-color: white;
+        color: #81ddbe;
+        transition: 0.4s;
+    } 
+    
+    .section .one  h6:hover {
+        letter-spacing: 4px;
+        transition: 0.6s;
+    }
+ 
+  
+    
+}
+  /* end2 */
+/* navbar media query end s */ 
+/* start media query section one -768-992 */
+@media only screen and (min-width:768px)and (max-width: 992px){
+    .logo  {
+        align-items: center;
+        text-decoration: none;
+        font-size: 35px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #81ddbe;
+    }
+    .logo:hover {
+        font-size: 35px;
+        transition: 0.4s;
+        }
+    header {   
+        width: 80%;
+        margin: auto;
+        height:90px ;
+        position: relative;
+    }
+    .container:hover{
+        background-color: #81ddbe;
+        transition: 0.5s all;
+    }
+    ul {
+        visibility: visible;
+        position: absolute;
+        left: 170px;
+    }
+    ul li {
+        list-style: none;
+    }
+    ul li a {
+        text-decoration: none;
+        padding: 9px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    ul li a:hover{
+        font-size: 14px;
+    }
+    .search {
+        color: #81ddbe;
+    }
+    .hidn-1{
+       visibility: hidden;
+    }
+    .text-a {
+        font-size: 6px;
+        color: white;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    /* 2 */
+     /* 2 */
+     .section {
+        height: 700px;
+        position: relative;
+    }
+    .section .one  h6{
+        color: #81ddbe;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;   
+        position: absolute;
+        top: 180px;
+        left: 10%;
+    }
+    .section .one h1 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 45px;
+        font-weight:900;
+        position: absolute;
+        top: 210px;
+        left: 10%;
+        letter-spacing: 2px;
+    
+    }
+    .creative {
+        color: #81ddbe;
+    }
+    .we {
+        position: absolute;
+        top: 320px;
+        left: 10%;
+        color: #81ddbe;
+        width: 110px;
+    }
+    /* .we:hover {
+        width: 330px;
+    } */
+    .section .one .p {
+        width: 420px;
+        color: rgba(255, 255, 255, 0.596);
+       
+    }
+    .section .one a {
+        text-decoration: none;
+        position: absolute;
+        top: 460px;
+        left: 9%;
+        color: rgba(255, 255, 255, 0.973);
+        font-weight: 600;
+        letter-spacing: 2px;
+    
+    }
+    .section .one a i {
+        background-color: #81ddbe;
+        color: white;
+        border: 4px solid #49997e;
+        border-bottom-color: rgba(52, 87, 75, 0.856);
+        border-radius: 50%;
+        padding: 20px;
+        margin: 10px;
+    }
+    .link-1 {
+        position: absolute;
+        top: 520px;
+        left: 150px;
+        color: rgba(168, 168, 168, 0.425);
+        width: 90px;
+    }
+    .section .one p {
+        position:absolute ;
+        top: 530px;
+        left: 150px;
+        color: #81ddbe;;
+        font-size: 16px;
+        letter-spacing: 1px;
+    
+    }
+    .section .two {
+        width: 50%;
+        height: 700px;
+       
+    }
+    .section .one a i:hover {
+        background-color: white;
+        color: #81ddbe;
+        transition: 0.4s;
+    } 
+    
+    .section .one  h6:hover {
+        letter-spacing: 4px;
+        transition: 0.6s;
+    }
+ 
+    
+}
